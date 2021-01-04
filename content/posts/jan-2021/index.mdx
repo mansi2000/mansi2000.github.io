@@ -20,6 +20,16 @@ Had an Interview ( for IGDTUW Women Entrepreneurs ) with Kashika from IIM, Ahemd
 
 22:00
 
-> TIL:
+While trying to deploy this website, a weird error popped up 
+
+    error: cannot stat 'component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-homepage-query-tsx-5de8d5f72b5a960d2ca8.js.map': Filename too long
+
+
+It was a windows error. Git has a limit of 4096 characters but it uses an older version of the Windows API and there's a limit of 260 characters for a filename. Please change the API, git devs.
+well I just had to change the git config file
+
+    git config --global core.longpaths true
+
+> ### TIL: Everything needs time and patience. 
 > 
 
