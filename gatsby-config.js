@@ -10,7 +10,7 @@ module.exports = {
     siteUrl: "https://mansi2000.github.io", // No trailing slash allowed!
     siteDescription: "Personal Blog - Mansi Bansal",
     siteLanguage: "en",
-    siteImage: "/banner.gif",
+    siteImage: "/banner.png",
     author: "Mansi Bansal",
   },
   plugins: [
