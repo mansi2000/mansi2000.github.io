@@ -4,15 +4,14 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Paras Gupta',
-    siteTitleAlt: `Paras Gupta - Blog`,
-    siteHeadline: "Paras Gupta - Blog",
-    siteUrl: "https://parasg1999.github.io", // No trailing slash allowed!
-    siteDescription: "Personal Blog - Paras Gupta",
+    siteTitle: 'Mansi Bansal',
+    siteTitleAlt: `Mansi Bansal - Blog`,
+    siteHeadline: "Mansi Bansal - Blog",
+    siteUrl: "https://mansi2000.github.io", // No trailing slash allowed!
+    siteDescription: "Personal Blog - Mansi Bansal",
     siteLanguage: "en",
     siteImage: "/banner.png",
-    author: "Paras Gupta",
-    twitterUsername: "@parasg1999",
+    author: "Mansi Bansal",
   },
   plugins: [
     {
@@ -31,12 +30,8 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/parasg1999`,
-          },
-          {
             name: `Github`,
-            url: `https://github.com/parasg1999/`,
+            url: `https://github.com/mansi2000/`,
           },
         ],
       },
@@ -51,22 +46,22 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `paras-gupta-blog`,
-        short_name: `paras-blog`,
-        description: `Personal blog for Paras Gupta.`,
+        name: `mansi-bansal-blog`,
+        short_name: `blog`,
+        description: `Personal blog for Mansi Bansal.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
-            sizes: `192x192`,
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
             type: `image/png`,
           },
         ],
